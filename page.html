@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Optimized Image Scroll</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            overflow-y: scroll;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: block;
+        }
+
+        .image-section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-section">
+            <img src="images/1.png" alt="First Image">
+        </div>
+        <div class="image-section">
+            <img src="images/2.png" alt="Second Image">
+        </div>
+    </div>
+
+</body>
+</html>
