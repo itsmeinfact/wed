@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order of Service</title>
+    <title>SC X SC Wedding</title>
     <style>
+        /* Reset margins, padding, and ensure box-sizing is consistent */
         * {
             margin: 0;
             padding: 0;
@@ -12,38 +13,37 @@
         }
 
         body, html {
-            height: 100%;
-            overflow-y: scroll;
             font-family: Arial, sans-serif;
-        }
-
-        .container {
-            display: block;
-        }
-
-        .image-section {
             width: 100%;
-            display: flex;
-            justify-content: center;
+            height: 100%;
+            overflow-y: auto;
         }
 
-        .image-section img {
+        img {
             width: 100%;
             height: auto;
-            object-fit: cover;
+            display: block; /* Prevents inline gaps */
+        }
+
+        a {
+            display: block; /* Ensures the link wraps around the full image */
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="image-section">
-            <img src="images/1.png" alt="First Image">
-        </div>
-        <div class="image-section">
-            <img src="images/2.png" alt="Second Image">
-        </div>
-    </div>
+    <img src="images/1.png" alt="order of service_1">
+    <img src="images/2.png" alt="order of service_2">
+    
+    <a href="https://mcard.fromtoday.co.kr/w/oWdV4a/" target="_blank">
+        <img src="images/3.png" alt="mobile invitation">
+    </a>
+
+    <a href="message.html">
+        <img src="images/4.png" alt="message">
+    </a>
+
+    <img src="images/5.png" alt="logo">
 
 </body>
 </html>
